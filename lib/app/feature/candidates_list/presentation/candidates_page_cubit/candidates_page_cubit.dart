@@ -5,7 +5,7 @@ import 'package:employee_app/app/feature/candidates_list/presentation/candidates
 class CandidatesPageCubit extends Cubit<CandidatesPageState> {
   CandidatesPageCubit() : super(CandidatesPageInitial());
 
-  void initial() {
+  void loadInitialData() {
     emit(CandidatesPageInitial());
   }
 

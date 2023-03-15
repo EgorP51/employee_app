@@ -25,9 +25,7 @@ class CandidatesPage extends StatelessWidget {
         },
       ),
       floatingActionButton: FloatingActionButton(
-        onPressed: () {
-          context.read<CandidatesPageCubit>().update();
-        },
+        onPressed: context.read<CandidatesPageCubit>().update,
         child: const Icon(Icons.refresh_outlined),
       ),
     );
