@@ -1,0 +1,7 @@
+{
+    "@@locale": "en",
+    "employeeAppBarTitle": "Employee app",
+    "@employeeAppBarTitle": {
+        "description": "Text shown in the AppBar of the CandidatesPage"
+    }
+}
