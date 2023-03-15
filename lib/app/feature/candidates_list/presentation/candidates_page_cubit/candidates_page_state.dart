@@ -4,4 +4,5 @@ import 'package:flutter/material.dart';
 abstract class CandidatesPageState {}
 
 class CandidatesPageInitial extends CandidatesPageState {}
+
 class CandidatesPageUpdate extends CandidatesPageState {}
