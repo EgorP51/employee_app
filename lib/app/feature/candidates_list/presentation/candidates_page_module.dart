@@ -9,7 +9,7 @@ class CandidatesPageModule extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return BlocProvider<CandidatesPageCubit>(
-      create: (context) => CandidatesPageCubit(),
+      create: (context) => CandidatesPageCubit()..initial(),
       child: const CandidatesPage(),
     );
   }
