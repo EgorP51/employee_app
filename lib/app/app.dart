@@ -1,3 +1,4 @@
+import 'package:employee_app/app/feature/presentation/candidates_page_module.dart';
 import 'package:employee_app/l10n/l10n.dart';
 import 'package:flutter/material.dart';
 
@@ -6,10 +7,10 @@ class App extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       localizationsDelegates: AppLocalizations.localizationsDelegates,
       supportedLocales: AppLocalizations.supportedLocales,
-      home: Container(),
+      home: CandidatesPageModule(),
     );
   }
 }
