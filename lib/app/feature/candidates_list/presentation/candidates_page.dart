@@ -11,9 +11,7 @@ class CandidatesPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(
-          AppLocalizations.of(context).employeeAppBarTitle
-        ),
+        title: Text(context.l10n.employeeAppBarTitle),
         centerTitle: true,
       ),
       body: BlocBuilder<CandidatesPageCubit, CandidatesPageState>(
