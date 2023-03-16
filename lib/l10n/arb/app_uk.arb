@@ -1,7 +1,8 @@
  {
      "@@locale": "uk",
+     "language": "Українська",
      "employeeAppBarTitle": "Додаток для співробітників",
      "@employeeAppBarTitle": {
-         "description": "Текст для сторінки кандидатів"
+         "description": "Text shown in the AppBar of the CandidatesPage"
      }
  }
