@@ -1,5 +1,6 @@
 import 'package:employee_app/app/feature/candidates_list/presentation/candidates_page_cubit/candidates_page_cubit.dart';
 import 'package:employee_app/app/feature/candidates_list/presentation/candidates_page_cubit/candidates_page_state.dart';
+import 'package:employee_app/l10n/l10n.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
@@ -10,7 +11,9 @@ class CandidatesPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('employee_app'),
+        title: Text(
+          AppLocalizations.of(context).employeeAppBarTitle
+        ),
         centerTitle: true,
       ),
       body: BlocBuilder<CandidatesPageCubit, CandidatesPageState>(
