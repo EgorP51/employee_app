@@ -1,8 +1,8 @@
 import 'package:employee_app/feature/candidates/candidates_list/data/models/candidate_model.dart';
 import 'package:flutter/material.dart';
 
-class CandidatesDetailsWidget extends StatelessWidget {
-  const CandidatesDetailsWidget({required this.candidateModel, super.key});
+class CandidateDetailsWidget extends StatelessWidget {
+  const CandidateDetailsWidget({required this.candidateModel, super.key});
   final CandidateModel candidateModel;
 
   @override

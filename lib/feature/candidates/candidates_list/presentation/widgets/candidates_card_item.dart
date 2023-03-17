@@ -1,6 +1,7 @@
-import 'package:employee_app/feature/candidates/candidates_details/presentation/pages/candidates_details_page.dart';
 import 'package:employee_app/feature/candidates/candidates_list/data/models/candidate_model.dart';
 import 'package:flutter/material.dart';
+
+import '../../../candidate_details/presentation/pages/candidate_details_page.dart';
 
 class CandidatesCardItem extends StatelessWidget {
   const CandidatesCardItem({required this.candidateModel, super.key});
@@ -13,7 +14,7 @@ class CandidatesCardItem extends StatelessWidget {
       onTap: () {
         Navigator.of(context).push(
           MaterialPageRoute(
-            builder: (context) => CandidatesDetailsPage(
+            builder: (context) => CandidateDetailsPage(
               candidateModel: candidateModel,
             ),
           ),

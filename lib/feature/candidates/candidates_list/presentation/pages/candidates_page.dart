@@ -1,4 +1,4 @@
-import 'package:employee_app/feature/candidates/candidates_list/domain/candidates_page_cubit/candidates_page_cubit.dart';
+import 'package:employee_app/feature/candidates/candidates_list/domain/cubit/candidates_page_cubit.dart';
 import 'package:employee_app/feature/candidates/candidates_list/presentation/widgets/candidates_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
