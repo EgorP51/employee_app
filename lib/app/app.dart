@@ -1,4 +1,4 @@
-import 'package:employee_app/feature/candidates/candidates_list/presentation/pages/candidates_page.dart';
+import 'package:employee_app/app/routing.dart';
 import 'package:employee_app/l10n/l10n.dart';
 import 'package:flutter/material.dart';
 
@@ -7,10 +7,10 @@ class App extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp.router(
+      routerConfig: Routing.router,
       localizationsDelegates: AppLocalizations.localizationsDelegates,
       supportedLocales: AppLocalizations.supportedLocales,
-      home: CandidatesPage(),
     );
   }
 }
