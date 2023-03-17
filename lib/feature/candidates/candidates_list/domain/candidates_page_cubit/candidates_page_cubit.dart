@@ -1,6 +1,6 @@
 import 'package:bloc/bloc.dart';
 
-import 'package:employee_app/app/feature/candidates_list/presentation/candidates_page_cubit/candidates_page_state.dart';
+import 'package:employee_app/feature/candidates/candidates_list/domain/candidates_page_cubit/candidates_page_state.dart';
 
 class CandidatesPageCubit extends Cubit<CandidatesPageState> {
   CandidatesPageCubit() : super(CandidatesPageInitial());
