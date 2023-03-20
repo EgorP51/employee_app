@@ -1,3 +1,4 @@
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:employee_app/app/routing.dart';
 import 'package:employee_app/feature/candidates/candidates_list/data/models/candidate_model.dart';
 import 'package:flutter/material.dart';
@@ -41,8 +42,17 @@ class CandidatesCardItem extends StatelessWidget {
         tag: candidateModel.uid.toString(),
         child: ColoredBox(
           color: Colors.amber,
-          child: Center(
-            child: Text(candidateModel.uid.toString()),
+          child: Column(
+            children: [
+              Center(
+                child: CachedNetworkImage(
+                  imageUrl: 'https://robohash.org/itaqueetamet.png?size=300x300&set=set1',
+                  progressIndicatorBuilder: (context, url, downloadProgress) =>
+                      CircularProgressIndicator(value: downloadProgress.progress),
+                  errorWidget: (context, url, error) => const Icon(Icons.error),
+                ),
+              ),
+            ],
           ),
         ),
       ),
