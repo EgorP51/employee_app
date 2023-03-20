@@ -24,11 +24,16 @@ class CandidateDetailsWidget extends StatelessWidget {
         child: Center(
           child: Column(
             children: [
-              Container(
-                height: 250,
-                width: 250,
-                color: Colors.green,
-                child: const Text('img place'),
+              Hero(
+                tag: candidateModel.uid.toString(),
+                child: Container(
+                  color: Colors.orange,
+                  height: 150,
+                  width: 150,
+                  child: Center(
+                    child: Text(candidateModel.uid.toString()),
+                  ),
+                ),
               ),
               const SizedBox(
                 height: 10,

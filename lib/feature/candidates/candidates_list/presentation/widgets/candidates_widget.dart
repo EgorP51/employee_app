@@ -12,7 +12,7 @@ class CandidatesWidget extends StatelessWidget {
   final candidatesList = List<CandidateModel>.generate(
     10,
     (index) => CandidateModel(
-      uid: "state.params['uid']",
+      uid: index.toString(),
       firstName: "state.params['firstName']",
       lastName: "state.params['lastName']",
       username: "state.params['username']",

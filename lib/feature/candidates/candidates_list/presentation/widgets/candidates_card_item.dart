@@ -37,8 +37,14 @@ class CandidatesCardItem extends StatelessWidget {
           },
         ),
       ),
-      child: Container(
-        color: Colors.blueAccent,
+      child: Hero(
+        tag: candidateModel.uid.toString(),
+        child: ColoredBox(
+          color: Colors.amber,
+          child: Center(
+            child: Text(candidateModel.uid.toString()),
+          ),
+        ),
       ),
     );
   }
