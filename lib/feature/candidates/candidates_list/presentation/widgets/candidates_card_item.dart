@@ -1,5 +1,4 @@
-import 'dart:convert';
-
+import 'package:employee_app/app/routing.dart';
 import 'package:employee_app/feature/candidates/candidates_list/data/models/candidate_model.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
@@ -14,7 +13,7 @@ class CandidatesCardItem extends StatelessWidget {
     return InkWell(
       onTap: () => context.go(
         context.namedLocation(
-          'candidate_details',
+          Routing.candidateDetails,
           params: <String, String>{
             'uid': candidateModel.uid!,
           },

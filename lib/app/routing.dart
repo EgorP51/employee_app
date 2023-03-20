@@ -4,15 +4,19 @@ import 'package:employee_app/feature/candidates/candidates_list/presentation/pag
 import 'package:go_router/go_router.dart';
 
 class Routing {
+  static const candidatesList = 'candidates_list';
+  static const candidateDetails = 'candidate_details';
+
   static final router = GoRouter(
     routes: [
       GoRoute(
         path: '/',
+        name: candidatesList,
         builder: (context, state) => const CandidatesPage(),
       ),
       GoRoute(
         path: '/candidate_details/:uid',
-        name: 'candidate_details',
+        name: candidateDetails,
         builder: (context, state) => CandidateDetailsPage(
           candidateModel: CandidateModel(
             uid: state.params['uid'],

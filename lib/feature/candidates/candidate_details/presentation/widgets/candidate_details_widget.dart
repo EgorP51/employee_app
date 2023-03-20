@@ -1,5 +1,7 @@
+import 'package:employee_app/app/routing.dart';
 import 'package:employee_app/feature/candidates/candidates_list/data/models/candidate_model.dart';
 import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
 
 class CandidateDetailsWidget extends StatelessWidget {
   const CandidateDetailsWidget({required this.candidateModel, super.key});
@@ -10,6 +12,12 @@ class CandidateDetailsWidget extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('CandidatesDetailsPage'),
+        leading: IconButton(
+          onPressed: () {
+            context.goNamed(Routing.candidatesList);
+          },
+          icon: const Icon(Icons.arrow_back_ios),
+        ),
       ),
       body: SingleChildScrollView(
         padding: const EdgeInsets.all(10),
