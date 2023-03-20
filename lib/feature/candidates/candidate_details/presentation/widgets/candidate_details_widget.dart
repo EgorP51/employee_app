@@ -28,12 +28,8 @@ class CandidateDetailsWidget extends StatelessWidget {
             children: [
               Hero(
                 tag: candidateModel.uid.toString(),
-                child: Container(
-                  color: Colors.orange,
-                  height: 150,
-                  width: 150,
-                  child: CachedNetworkImage(
-                    imageUrl: 'https://robohash.org/itaqueetamet.png?size=300x300&set=set1',
+                child: CachedNetworkImage(
+                    imageUrl: candidateModel.avatar!,
                     progressIndicatorBuilder: (context, url, downloadProgress) {
                       return CircularProgressIndicator(
                         value: downloadProgress.progress,
@@ -43,7 +39,6 @@ class CandidateDetailsWidget extends StatelessWidget {
                         const Icon(Icons.error),
                   ),
                 ),
-              ),
               const SizedBox(
                 height: 10,
               ),

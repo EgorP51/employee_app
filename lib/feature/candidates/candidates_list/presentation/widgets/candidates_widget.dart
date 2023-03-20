@@ -17,7 +17,7 @@ class CandidatesWidget extends StatelessWidget {
       lastName: "state.params['lastName']",
       username: "state.params['username']",
       email: "state.params['email']",
-      avatar: "state.params['avatar']",
+      avatar: 'https://robohash.org/itaqueetamet.png?size=300x300&set=set1',
       gender: "state.params['gender']",
       phoneNumber: "state.params['phoneNumber']",
       dateOfBirth: DateTime.parse('2020-01-02 07'),

@@ -22,6 +22,10 @@ class CandidateModel with _$CandidateModel {
 
   factory CandidateModel.fromJson(Map<String, dynamic> json) =>
       _$CandidateModelFromJson(json);
+
+
+  static Map<String, dynamic> toJson(CandidateModel candidateModel) =>
+      _$$_CandidateModelToJson(candidateModel);
 }
 
 @freezed

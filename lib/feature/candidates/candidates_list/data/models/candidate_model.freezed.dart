@@ -32,7 +32,6 @@ mixin _$CandidateModel {
   Employment? get employment => throw _privateConstructorUsedError;
   Address? get address => throw _privateConstructorUsedError;
 
-  Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
   @JsonKey(ignore: true)
   $CandidateModelCopyWith<CandidateModel> get copyWith =>
       throw _privateConstructorUsedError;
@@ -352,7 +351,7 @@ class _$_CandidateModel implements _CandidateModel {
       __$$_CandidateModelCopyWithImpl<_$_CandidateModel>(this, _$identity);
 
   @override
-  Map<String, dynamic> toJson() {
+  Map<String, dynamic> toJson(_) {
     return _$$_CandidateModelToJson(
       this,
     );

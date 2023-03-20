@@ -15,27 +15,7 @@ class CandidatesCardItem extends StatelessWidget {
       onTap: () => context.go(
         context.namedLocation(
           Routing.candidateDetails,
-          params: <String, String>{
-            'uid': candidateModel.uid!,
-          },
-          queryParams: <String, String>{
-            'firstName': candidateModel.firstName!,
-            'lastName': candidateModel.lastName!,
-            'username': candidateModel.username!,
-            'email': candidateModel.email!,
-            'avatar': candidateModel.avatar!,
-            'gender': candidateModel.gender!,
-            'phoneNumber': candidateModel.phoneNumber!,
-            'dateOfBirth': candidateModel.dateOfBirth!.toString(),
-            'employment_title': candidateModel.employment!.title!,
-            'employment_key_skill': candidateModel.employment!.keySkill!,
-            'address_city': candidateModel.address!.city!,
-            'address_country': candidateModel.address!.country!,
-            'address_street_name': candidateModel.address!.streetName!,
-            'street_address': candidateModel.address!.streetAddress!,
-            'address_zip_code': candidateModel.address!.zipCode!,
-            'address_state': candidateModel.address!.state!,
-          },
+          queryParams: CandidateModel.toJson(candidateModel),
         ),
       ),
       child: Hero(
