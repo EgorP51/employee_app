@@ -12,11 +12,9 @@ class CandidatesCardItem extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return InkWell(
-      onTap: () => context.go(
-        context.namedLocation(
-          Routing.candidateDetails,
-          queryParams: CandidateModel.toJson(candidateModel),
-        ),
+      onTap: () => context.goNamed(
+        Routing.candidateDetails,
+        extra: candidateModel
       ),
       child: Hero(
         tag: candidateModel.uid.toString(),
@@ -26,7 +24,7 @@ class CandidatesCardItem extends StatelessWidget {
             children: [
               Center(
                 child: CachedNetworkImage(
-                  imageUrl: 'https://robohash.org/itaqueetamet.png?size=300x300&set=set1',
+                  imageUrl: candidateModel.avatar!,
                   progressIndicatorBuilder: (context, url, downloadProgress) =>
                       CircularProgressIndicator(value: downloadProgress.progress),
                   errorWidget: (context, url, error) => const Icon(Icons.error),

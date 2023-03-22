@@ -15,11 +15,16 @@ class Routing {
         builder: (context, state) => const CandidatesPage(),
       ),
       GoRoute(
-        path: '/candidate_details',
+        path: '/$candidateDetails',
         name: candidateDetails,
-        builder: (context, state) => CandidateDetailsPage(
-          candidateModel: CandidateModel.fromJson(state.queryParams),
-        ),
+        builder: (context, state) {
+          final extra = state.extra;
+          if(extra is CandidateModel){
+            return CandidateDetailsPage(candidateModel: extra);
+          }else{
+            throw ArgumentError();
+          }
+        },
       ),
     ],
   );
