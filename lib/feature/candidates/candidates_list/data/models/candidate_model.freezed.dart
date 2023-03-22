@@ -21,14 +21,14 @@ CandidateModel _$CandidateModelFromJson(Map<String, dynamic> json) {
 /// @nodoc
 mixin _$CandidateModel {
   String? get uid => throw _privateConstructorUsedError;
-  String? get first_name => throw _privateConstructorUsedError;
-  String? get last_name => throw _privateConstructorUsedError;
+  String? get firstName => throw _privateConstructorUsedError;
+  String? get lastName => throw _privateConstructorUsedError;
   String? get username => throw _privateConstructorUsedError;
   String? get email => throw _privateConstructorUsedError;
   String? get avatar => throw _privateConstructorUsedError;
   String? get gender => throw _privateConstructorUsedError;
-  String? get phone_number => throw _privateConstructorUsedError;
-  DateTime? get date_of_birth => throw _privateConstructorUsedError;
+  String? get phoneNumber => throw _privateConstructorUsedError;
+  DateTime? get dateOfBirth => throw _privateConstructorUsedError;
   Employment? get employment => throw _privateConstructorUsedError;
   Address? get address => throw _privateConstructorUsedError;
 
@@ -46,14 +46,14 @@ abstract class $CandidateModelCopyWith<$Res> {
   @useResult
   $Res call(
       {String? uid,
-      String? first_name,
-      String? last_name,
+      String? firstName,
+      String? lastName,
       String? username,
       String? email,
       String? avatar,
       String? gender,
-      String? phone_number,
-      DateTime? date_of_birth,
+      String? phoneNumber,
+      DateTime? dateOfBirth,
       Employment? employment,
       Address? address});
 
@@ -75,14 +75,14 @@ class _$CandidateModelCopyWithImpl<$Res, $Val extends CandidateModel>
   @override
   $Res call({
     Object? uid = freezed,
-    Object? first_name = freezed,
-    Object? last_name = freezed,
+    Object? firstName = freezed,
+    Object? lastName = freezed,
     Object? username = freezed,
     Object? email = freezed,
     Object? avatar = freezed,
     Object? gender = freezed,
-    Object? phone_number = freezed,
-    Object? date_of_birth = freezed,
+    Object? phoneNumber = freezed,
+    Object? dateOfBirth = freezed,
     Object? employment = freezed,
     Object? address = freezed,
   }) {
@@ -91,13 +91,13 @@ class _$CandidateModelCopyWithImpl<$Res, $Val extends CandidateModel>
           ? _value.uid
           : uid // ignore: cast_nullable_to_non_nullable
               as String?,
-      first_name: freezed == first_name
-          ? _value.first_name
-          : first_name // ignore: cast_nullable_to_non_nullable
+      firstName: freezed == firstName
+          ? _value.firstName
+          : firstName // ignore: cast_nullable_to_non_nullable
               as String?,
-      last_name: freezed == last_name
-          ? _value.last_name
-          : last_name // ignore: cast_nullable_to_non_nullable
+      lastName: freezed == lastName
+          ? _value.lastName
+          : lastName // ignore: cast_nullable_to_non_nullable
               as String?,
       username: freezed == username
           ? _value.username
@@ -115,13 +115,13 @@ class _$CandidateModelCopyWithImpl<$Res, $Val extends CandidateModel>
           ? _value.gender
           : gender // ignore: cast_nullable_to_non_nullable
               as String?,
-      phone_number: freezed == phone_number
-          ? _value.phone_number
-          : phone_number // ignore: cast_nullable_to_non_nullable
+      phoneNumber: freezed == phoneNumber
+          ? _value.phoneNumber
+          : phoneNumber // ignore: cast_nullable_to_non_nullable
               as String?,
-      date_of_birth: freezed == date_of_birth
-          ? _value.date_of_birth
-          : date_of_birth // ignore: cast_nullable_to_non_nullable
+      dateOfBirth: freezed == dateOfBirth
+          ? _value.dateOfBirth
+          : dateOfBirth // ignore: cast_nullable_to_non_nullable
               as DateTime?,
       employment: freezed == employment
           ? _value.employment
@@ -169,14 +169,14 @@ abstract class _$$_CandidateModelCopyWith<$Res>
   @useResult
   $Res call(
       {String? uid,
-      String? first_name,
-      String? last_name,
+      String? firstName,
+      String? lastName,
       String? username,
       String? email,
       String? avatar,
       String? gender,
-      String? phone_number,
-      DateTime? date_of_birth,
+      String? phoneNumber,
+      DateTime? dateOfBirth,
       Employment? employment,
       Address? address});
 
@@ -198,14 +198,14 @@ class __$$_CandidateModelCopyWithImpl<$Res>
   @override
   $Res call({
     Object? uid = freezed,
-    Object? first_name = freezed,
-    Object? last_name = freezed,
+    Object? firstName = freezed,
+    Object? lastName = freezed,
     Object? username = freezed,
     Object? email = freezed,
     Object? avatar = freezed,
     Object? gender = freezed,
-    Object? phone_number = freezed,
-    Object? date_of_birth = freezed,
+    Object? phoneNumber = freezed,
+    Object? dateOfBirth = freezed,
     Object? employment = freezed,
     Object? address = freezed,
   }) {
@@ -214,13 +214,13 @@ class __$$_CandidateModelCopyWithImpl<$Res>
           ? _value.uid
           : uid // ignore: cast_nullable_to_non_nullable
               as String?,
-      first_name: freezed == first_name
-          ? _value.first_name
-          : first_name // ignore: cast_nullable_to_non_nullable
+      firstName: freezed == firstName
+          ? _value.firstName
+          : firstName // ignore: cast_nullable_to_non_nullable
               as String?,
-      last_name: freezed == last_name
-          ? _value.last_name
-          : last_name // ignore: cast_nullable_to_non_nullable
+      lastName: freezed == lastName
+          ? _value.lastName
+          : lastName // ignore: cast_nullable_to_non_nullable
               as String?,
       username: freezed == username
           ? _value.username
@@ -238,13 +238,13 @@ class __$$_CandidateModelCopyWithImpl<$Res>
           ? _value.gender
           : gender // ignore: cast_nullable_to_non_nullable
               as String?,
-      phone_number: freezed == phone_number
-          ? _value.phone_number
-          : phone_number // ignore: cast_nullable_to_non_nullable
+      phoneNumber: freezed == phoneNumber
+          ? _value.phoneNumber
+          : phoneNumber // ignore: cast_nullable_to_non_nullable
               as String?,
-      date_of_birth: freezed == date_of_birth
-          ? _value.date_of_birth
-          : date_of_birth // ignore: cast_nullable_to_non_nullable
+      dateOfBirth: freezed == dateOfBirth
+          ? _value.dateOfBirth
+          : dateOfBirth // ignore: cast_nullable_to_non_nullable
               as DateTime?,
       employment: freezed == employment
           ? _value.employment
@@ -259,18 +259,19 @@ class __$$_CandidateModelCopyWithImpl<$Res>
 }
 
 /// @nodoc
-@JsonSerializable()
+
+@JsonSerializable(explicitToJson: true, fieldRename: FieldRename.snake)
 class _$_CandidateModel implements _CandidateModel {
   const _$_CandidateModel(
       {this.uid,
-      this.first_name,
-      this.last_name,
+      this.firstName,
+      this.lastName,
       this.username,
       this.email,
       this.avatar,
       this.gender,
-      this.phone_number,
-      this.date_of_birth,
+      this.phoneNumber,
+      this.dateOfBirth,
       this.employment,
       this.address});
 
@@ -280,9 +281,9 @@ class _$_CandidateModel implements _CandidateModel {
   @override
   final String? uid;
   @override
-  final String? first_name;
+  final String? firstName;
   @override
-  final String? last_name;
+  final String? lastName;
   @override
   final String? username;
   @override
@@ -292,9 +293,9 @@ class _$_CandidateModel implements _CandidateModel {
   @override
   final String? gender;
   @override
-  final String? phone_number;
+  final String? phoneNumber;
   @override
-  final DateTime? date_of_birth;
+  final DateTime? dateOfBirth;
   @override
   final Employment? employment;
   @override
@@ -302,7 +303,7 @@ class _$_CandidateModel implements _CandidateModel {
 
   @override
   String toString() {
-    return 'CandidateModel(uid: $uid, first_name: $first_name, last_name: $last_name, username: $username, email: $email, avatar: $avatar, gender: $gender, phone_number: $phone_number, date_of_birth: $date_of_birth, employment: $employment, address: $address)';
+    return 'CandidateModel(uid: $uid, firstName: $firstName, lastName: $lastName, username: $username, email: $email, avatar: $avatar, gender: $gender, phoneNumber: $phoneNumber, dateOfBirth: $dateOfBirth, employment: $employment, address: $address)';
   }
 
   @override
@@ -311,19 +312,19 @@ class _$_CandidateModel implements _CandidateModel {
         (other.runtimeType == runtimeType &&
             other is _$_CandidateModel &&
             (identical(other.uid, uid) || other.uid == uid) &&
-            (identical(other.first_name, first_name) ||
-                other.first_name == first_name) &&
-            (identical(other.last_name, last_name) ||
-                other.last_name == last_name) &&
+            (identical(other.firstName, firstName) ||
+                other.firstName == firstName) &&
+            (identical(other.lastName, lastName) ||
+                other.lastName == lastName) &&
             (identical(other.username, username) ||
                 other.username == username) &&
             (identical(other.email, email) || other.email == email) &&
             (identical(other.avatar, avatar) || other.avatar == avatar) &&
             (identical(other.gender, gender) || other.gender == gender) &&
-            (identical(other.phone_number, phone_number) ||
-                other.phone_number == phone_number) &&
-            (identical(other.date_of_birth, date_of_birth) ||
-                other.date_of_birth == date_of_birth) &&
+            (identical(other.phoneNumber, phoneNumber) ||
+                other.phoneNumber == phoneNumber) &&
+            (identical(other.dateOfBirth, dateOfBirth) ||
+                other.dateOfBirth == dateOfBirth) &&
             (identical(other.employment, employment) ||
                 other.employment == employment) &&
             (identical(other.address, address) || other.address == address));
@@ -334,14 +335,14 @@ class _$_CandidateModel implements _CandidateModel {
   int get hashCode => Object.hash(
       runtimeType,
       uid,
-      first_name,
-      last_name,
+      firstName,
+      lastName,
       username,
       email,
       avatar,
       gender,
-      phone_number,
-      date_of_birth,
+      phoneNumber,
+      dateOfBirth,
       employment,
       address);
 
@@ -362,14 +363,14 @@ class _$_CandidateModel implements _CandidateModel {
 abstract class _CandidateModel implements CandidateModel {
   const factory _CandidateModel(
       {final String? uid,
-      final String? first_name,
-      final String? last_name,
+      final String? firstName,
+      final String? lastName,
       final String? username,
       final String? email,
       final String? avatar,
       final String? gender,
-      final String? phone_number,
-      final DateTime? date_of_birth,
+      final String? phoneNumber,
+      final DateTime? dateOfBirth,
       final Employment? employment,
       final Address? address}) = _$_CandidateModel;
 
@@ -379,9 +380,9 @@ abstract class _CandidateModel implements CandidateModel {
   @override
   String? get uid;
   @override
-  String? get first_name;
+  String? get firstName;
   @override
-  String? get last_name;
+  String? get lastName;
   @override
   String? get username;
   @override
@@ -391,9 +392,9 @@ abstract class _CandidateModel implements CandidateModel {
   @override
   String? get gender;
   @override
-  String? get phone_number;
+  String? get phoneNumber;
   @override
-  DateTime? get date_of_birth;
+  DateTime? get dateOfBirth;
   @override
   Employment? get employment;
   @override
@@ -411,9 +412,9 @@ Address _$AddressFromJson(Map<String, dynamic> json) {
 /// @nodoc
 mixin _$Address {
   String? get city => throw _privateConstructorUsedError;
-  String? get street_name => throw _privateConstructorUsedError;
-  String? get street_address => throw _privateConstructorUsedError;
-  String? get zip_code => throw _privateConstructorUsedError;
+  String? get streetName => throw _privateConstructorUsedError;
+  String? get streetAddress => throw _privateConstructorUsedError;
+  String? get zipCode => throw _privateConstructorUsedError;
   String? get state => throw _privateConstructorUsedError;
   String? get country => throw _privateConstructorUsedError;
 
@@ -429,9 +430,9 @@ abstract class $AddressCopyWith<$Res> {
   @useResult
   $Res call(
       {String? city,
-      String? street_name,
-      String? street_address,
-      String? zip_code,
+      String? streetName,
+      String? streetAddress,
+      String? zipCode,
       String? state,
       String? country});
 }
@@ -450,9 +451,9 @@ class _$AddressCopyWithImpl<$Res, $Val extends Address>
   @override
   $Res call({
     Object? city = freezed,
-    Object? street_name = freezed,
-    Object? street_address = freezed,
-    Object? zip_code = freezed,
+    Object? streetName = freezed,
+    Object? streetAddress = freezed,
+    Object? zipCode = freezed,
     Object? state = freezed,
     Object? country = freezed,
   }) {
@@ -461,17 +462,17 @@ class _$AddressCopyWithImpl<$Res, $Val extends Address>
           ? _value.city
           : city // ignore: cast_nullable_to_non_nullable
               as String?,
-      street_name: freezed == street_name
-          ? _value.street_name
-          : street_name // ignore: cast_nullable_to_non_nullable
+      streetName: freezed == streetName
+          ? _value.streetName
+          : streetName // ignore: cast_nullable_to_non_nullable
               as String?,
-      street_address: freezed == street_address
-          ? _value.street_address
-          : street_address // ignore: cast_nullable_to_non_nullable
+      streetAddress: freezed == streetAddress
+          ? _value.streetAddress
+          : streetAddress // ignore: cast_nullable_to_non_nullable
               as String?,
-      zip_code: freezed == zip_code
-          ? _value.zip_code
-          : zip_code // ignore: cast_nullable_to_non_nullable
+      zipCode: freezed == zipCode
+          ? _value.zipCode
+          : zipCode // ignore: cast_nullable_to_non_nullable
               as String?,
       state: freezed == state
           ? _value.state
@@ -494,9 +495,9 @@ abstract class _$$_AddressCopyWith<$Res> implements $AddressCopyWith<$Res> {
   @useResult
   $Res call(
       {String? city,
-      String? street_name,
-      String? street_address,
-      String? zip_code,
+      String? streetName,
+      String? streetAddress,
+      String? zipCode,
       String? state,
       String? country});
 }
@@ -512,9 +513,9 @@ class __$$_AddressCopyWithImpl<$Res>
   @override
   $Res call({
     Object? city = freezed,
-    Object? street_name = freezed,
-    Object? street_address = freezed,
-    Object? zip_code = freezed,
+    Object? streetName = freezed,
+    Object? streetAddress = freezed,
+    Object? zipCode = freezed,
     Object? state = freezed,
     Object? country = freezed,
   }) {
@@ -523,17 +524,17 @@ class __$$_AddressCopyWithImpl<$Res>
           ? _value.city
           : city // ignore: cast_nullable_to_non_nullable
               as String?,
-      street_name: freezed == street_name
-          ? _value.street_name
-          : street_name // ignore: cast_nullable_to_non_nullable
+      streetName: freezed == streetName
+          ? _value.streetName
+          : streetName // ignore: cast_nullable_to_non_nullable
               as String?,
-      street_address: freezed == street_address
-          ? _value.street_address
-          : street_address // ignore: cast_nullable_to_non_nullable
+      streetAddress: freezed == streetAddress
+          ? _value.streetAddress
+          : streetAddress // ignore: cast_nullable_to_non_nullable
               as String?,
-      zip_code: freezed == zip_code
-          ? _value.zip_code
-          : zip_code // ignore: cast_nullable_to_non_nullable
+      zipCode: freezed == zipCode
+          ? _value.zipCode
+          : zipCode // ignore: cast_nullable_to_non_nullable
               as String?,
       state: freezed == state
           ? _value.state
@@ -548,13 +549,14 @@ class __$$_AddressCopyWithImpl<$Res>
 }
 
 /// @nodoc
-@JsonSerializable()
+
+@JsonSerializable(fieldRename: FieldRename.snake)
 class _$_Address implements _Address {
   const _$_Address(
       {this.city,
-      this.street_name,
-      this.street_address,
-      this.zip_code,
+      this.streetName,
+      this.streetAddress,
+      this.zipCode,
       this.state,
       this.country});
 
@@ -564,11 +566,11 @@ class _$_Address implements _Address {
   @override
   final String? city;
   @override
-  final String? street_name;
+  final String? streetName;
   @override
-  final String? street_address;
+  final String? streetAddress;
   @override
-  final String? zip_code;
+  final String? zipCode;
   @override
   final String? state;
   @override
@@ -576,7 +578,7 @@ class _$_Address implements _Address {
 
   @override
   String toString() {
-    return 'Address(city: $city, street_name: $street_name, street_address: $street_address, zip_code: $zip_code, state: $state, country: $country)';
+    return 'Address(city: $city, streetName: $streetName, streetAddress: $streetAddress, zipCode: $zipCode, state: $state, country: $country)';
   }
 
   @override
@@ -585,12 +587,11 @@ class _$_Address implements _Address {
         (other.runtimeType == runtimeType &&
             other is _$_Address &&
             (identical(other.city, city) || other.city == city) &&
-            (identical(other.street_name, street_name) ||
-                other.street_name == street_name) &&
-            (identical(other.street_address, street_address) ||
-                other.street_address == street_address) &&
-            (identical(other.zip_code, zip_code) ||
-                other.zip_code == zip_code) &&
+            (identical(other.streetName, streetName) ||
+                other.streetName == streetName) &&
+            (identical(other.streetAddress, streetAddress) ||
+                other.streetAddress == streetAddress) &&
+            (identical(other.zipCode, zipCode) || other.zipCode == zipCode) &&
             (identical(other.state, state) || other.state == state) &&
             (identical(other.country, country) || other.country == country));
   }
@@ -598,7 +599,7 @@ class _$_Address implements _Address {
   @JsonKey(ignore: true)
   @override
   int get hashCode => Object.hash(
-      runtimeType, city, street_name, street_address, zip_code, state, country);
+      runtimeType, city, streetName, streetAddress, zipCode, state, country);
 
   @JsonKey(ignore: true)
   @override
@@ -617,9 +618,9 @@ class _$_Address implements _Address {
 abstract class _Address implements Address {
   const factory _Address(
       {final String? city,
-      final String? street_name,
-      final String? street_address,
-      final String? zip_code,
+      final String? streetName,
+      final String? streetAddress,
+      final String? zipCode,
       final String? state,
       final String? country}) = _$_Address;
 
@@ -628,11 +629,11 @@ abstract class _Address implements Address {
   @override
   String? get city;
   @override
-  String? get street_name;
+  String? get streetName;
   @override
-  String? get street_address;
+  String? get streetAddress;
   @override
-  String? get zip_code;
+  String? get zipCode;
   @override
   String? get state;
   @override
@@ -650,7 +651,7 @@ Employment _$EmploymentFromJson(Map<String, dynamic> json) {
 /// @nodoc
 mixin _$Employment {
   String? get title => throw _privateConstructorUsedError;
-  String? get key_skill => throw _privateConstructorUsedError;
+  String? get keySkill => throw _privateConstructorUsedError;
 
   Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
   @JsonKey(ignore: true)
@@ -664,7 +665,7 @@ abstract class $EmploymentCopyWith<$Res> {
           Employment value, $Res Function(Employment) then) =
       _$EmploymentCopyWithImpl<$Res, Employment>;
   @useResult
-  $Res call({String? title, String? key_skill});
+  $Res call({String? title, String? keySkill});
 }
 
 /// @nodoc
@@ -681,16 +682,16 @@ class _$EmploymentCopyWithImpl<$Res, $Val extends Employment>
   @override
   $Res call({
     Object? title = freezed,
-    Object? key_skill = freezed,
+    Object? keySkill = freezed,
   }) {
     return _then(_value.copyWith(
       title: freezed == title
           ? _value.title
           : title // ignore: cast_nullable_to_non_nullable
               as String?,
-      key_skill: freezed == key_skill
-          ? _value.key_skill
-          : key_skill // ignore: cast_nullable_to_non_nullable
+      keySkill: freezed == keySkill
+          ? _value.keySkill
+          : keySkill // ignore: cast_nullable_to_non_nullable
               as String?,
     ) as $Val);
   }
@@ -704,7 +705,7 @@ abstract class _$$_EmploymentCopyWith<$Res>
       __$$_EmploymentCopyWithImpl<$Res>;
   @override
   @useResult
-  $Res call({String? title, String? key_skill});
+  $Res call({String? title, String? keySkill});
 }
 
 /// @nodoc
@@ -719,25 +720,26 @@ class __$$_EmploymentCopyWithImpl<$Res>
   @override
   $Res call({
     Object? title = freezed,
-    Object? key_skill = freezed,
+    Object? keySkill = freezed,
   }) {
     return _then(_$_Employment(
       title: freezed == title
           ? _value.title
           : title // ignore: cast_nullable_to_non_nullable
               as String?,
-      key_skill: freezed == key_skill
-          ? _value.key_skill
-          : key_skill // ignore: cast_nullable_to_non_nullable
+      keySkill: freezed == keySkill
+          ? _value.keySkill
+          : keySkill // ignore: cast_nullable_to_non_nullable
               as String?,
     ));
   }
 }
 
 /// @nodoc
-@JsonSerializable()
+
+@JsonSerializable(fieldRename: FieldRename.snake)
 class _$_Employment implements _Employment {
-  const _$_Employment({this.title, this.key_skill});
+  const _$_Employment({this.title, this.keySkill});
 
   factory _$_Employment.fromJson(Map<String, dynamic> json) =>
       _$$_EmploymentFromJson(json);
@@ -745,11 +747,11 @@ class _$_Employment implements _Employment {
   @override
   final String? title;
   @override
-  final String? key_skill;
+  final String? keySkill;
 
   @override
   String toString() {
-    return 'Employment(title: $title, key_skill: $key_skill)';
+    return 'Employment(title: $title, keySkill: $keySkill)';
   }
 
   @override
@@ -758,13 +760,13 @@ class _$_Employment implements _Employment {
         (other.runtimeType == runtimeType &&
             other is _$_Employment &&
             (identical(other.title, title) || other.title == title) &&
-            (identical(other.key_skill, key_skill) ||
-                other.key_skill == key_skill));
+            (identical(other.keySkill, keySkill) ||
+                other.keySkill == keySkill));
   }
 
   @JsonKey(ignore: true)
   @override
-  int get hashCode => Object.hash(runtimeType, title, key_skill);
+  int get hashCode => Object.hash(runtimeType, title, keySkill);
 
   @JsonKey(ignore: true)
   @override
@@ -781,7 +783,7 @@ class _$_Employment implements _Employment {
 }
 
 abstract class _Employment implements Employment {
-  const factory _Employment({final String? title, final String? key_skill}) =
+  const factory _Employment({final String? title, final String? keySkill}) =
       _$_Employment;
 
   factory _Employment.fromJson(Map<String, dynamic> json) =
@@ -790,7 +792,7 @@ abstract class _Employment implements Employment {
   @override
   String? get title;
   @override
-  String? get key_skill;
+  String? get keySkill;
   @override
   @JsonKey(ignore: true)
   _$$_EmploymentCopyWith<_$_Employment> get copyWith =>

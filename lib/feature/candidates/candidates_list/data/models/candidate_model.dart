@@ -9,14 +9,14 @@ class CandidateModel with _$CandidateModel {
   @JsonSerializable(explicitToJson: true, fieldRename: FieldRename.snake)
   const factory CandidateModel({
     String? uid,
-    String? first_name,
-    String? last_name,
+    String? firstName,
+    String? lastName,
     String? username,
     String? email,
     String? avatar,
     String? gender,
-    String? phone_number,
-    DateTime? date_of_birth,
+    String? phoneNumber,
+    DateTime? dateOfBirth,
     Employment? employment,
     Address? address,
   }) = _CandidateModel;
@@ -31,9 +31,9 @@ class Address with _$Address {
   @JsonSerializable(fieldRename:FieldRename.snake)
   const factory Address({
     String? city,
-    String? street_name,
-    String? street_address,
-    String? zip_code,
+    String? streetName,
+    String? streetAddress,
+    String? zipCode,
     String? state,
     String? country,
   }) = _Address;
@@ -47,7 +47,7 @@ class Employment with _$Employment {
   @JsonSerializable(fieldRename:FieldRename.snake)
   const factory Employment({
     String? title,
-    String? key_skill,
+    String? keySkill,
   }) = _Employment;
 
   factory Employment.fromJson(Map<String, dynamic> json) =>
